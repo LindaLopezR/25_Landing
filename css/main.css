@@ -1,0 +1,79 @@
+* {
+	font-family: "Open Sans";
+}
+a {
+	text-decoration: none;
+	text-align: right;
+}
+/*LOGO*/
+img {
+	width: 30%;
+}
+/*MENÚ*/
+nav a {
+	color: gray;
+}
+nav :first-child {
+	padding-right: 3%;
+}
+/*CONTENIDO*/
+h1 {
+	font-size: 2.5em;
+}
+h1, h1+p, h3, .boton {
+	color: white;
+}
+h1+p {
+	text-align: justify;
+}
+/*MARGENES*/
+.mt3 {
+	margin-top: 3%;
+}
+.mt5 {
+	margin-top: 5%;
+}
+.mb3 {
+	margin-bottom: 3%;
+}
+.mb5 {
+	margin-bottom: 3%;
+}
+/*COLORES*/
+section {
+	background-color: gray;
+}
+/*FORMULARIO*/
+form {
+	background-color: #C7C4C3;
+	text-align: center;
+	border-radius: 10px;
+	padding: 6% 4%;
+}
+input {
+	display: block;
+	margin-top: 2%;
+	width: 100%;
+	padding: 1% 0;
+}
+.boton {
+	background-color: #1ACDCF;
+	border: none;	
+}
+/*RESPONSIVE*/
+@media (min-width: 70px) and (max-width: 535px) {
+    .formu{
+        clear: both;
+    }
+    nav a {
+    	font-size: .75em;
+    }
+    h1 {
+	font-size: 2em;
+	}
+}
+@media screen and (min-width: 535px) {
+   form {
+       margin: 0 20%;
+    }
+}
